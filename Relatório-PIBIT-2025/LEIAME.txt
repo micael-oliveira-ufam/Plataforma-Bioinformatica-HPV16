@@ -1,0 +1,48 @@
+Este modelo tem caráter provisório até que o modelo oficial seja atualizado para as novas normas da CCPG!
+
+Para usar este modelo de trabalho acadêmico, você deve estar utilizando codificação UTF8 no seu editor.
+Esta configuração se aplica a todos os arquivos envolvidos à produção do trabalho acadêmico usando este
+modelo.
+
+Recomendo que leia todo o documento PDF gerado 'trabalho.pdf' antes de realizar quaisquer modificações
+no código fonte deste modelo.
+
+Este modelo é apenas uma adaptação do Modelo Canônico de Trabalho Acadêmico fornecido pela equipe do 
+abnTeX2 em http://www.abntex.net.br/ Portanto, para melhor entendimento da dinâmica deste modelo, tenha
+em mãos os manuais da classe abntex2, que podem ser obtidos no próprio site.
+
+Os arquivos que são essenciais para este modelo E QUE NÃO DEVEM SER ALTERADOS são
+logo-unicamp.png
+imecc-unicamp.cls
+
+O arquivo 'trabalho.tex' é o arquivo principal. É ele que você deve compilar, por isso altere apenas o
+essencial nele.
+
+O arquivo 'pacotes.tex' contém os pacotes que estão sendo usados atualmente pelo modelo. Preceba que nele
+estão alguns pacotes essenciais para o modelo, os quais não devem ser removidos. Leia-o e faça suas
+alterações desejadas.
+
+O arquivo 'configglobal.tex' fornece o conjunto de configurações gerais para todo o documento. Caso você
+esteja usando pacotes que requerem um conjunto de definições e configurações específicas, coloque-as
+neste aquivo. Leia-o e faça suas alterações desejadas.
+
+O arquivo 'dados.tex' contém todas as informações necessárias para a impressão da capa e da folha de rosto
+de seu trabalho acadêmico.
+
+O arquivo 'glossario.tex' contém comandos de configuração para compilar o glossário, bem como as entradas
+a serem utilizadas no glossário, com suas respectivas definições.
+
+Os arquivos 'anexos.tex', 'apendices.tex', 'introducao.tex', 'considfinais.tex', 'resumos.tex',
+'abntex2-modelo-exemplos.tex', 'abntex2-modelo-img-grafico.pdf' e 'abntex2-modelo-img-marca.pdf'
+são arquivos cujo conteúdo está presente apenas como exemplo. Destes, apenas os arquivos 'introducao.tex',
+'resumos.tex' e 'considfinais.tex' não podem ser descartados (apenas alterados). Os demais podem ser 
+descartados/alterados/substituídos.
+
+O arquivo 'abntex2-modelo-references.bib' pode ser substituído pelo arquivo .BIB que contém as referências
+do seu trabalho acadêmico. Preceba que este modelo necessita de um arquivo .BIB contendo bibliografias.
+
+Dúvidas? Escreva para mim: Fábio Rodrigues Silva, silvafr@ime.unicamp.br ou gfabinhomat@gmail.com
+Mais informações podem ser obtidas:
+- no site do projeto abnTeX2 em http://www.abntex.net.br/
+- no grupo de desenvolvedores do abnTeX2 em https://groups.google.com/forum/#!forum/abntex2
+- no grupo de usuários LaTeX em https://groups.google.com/forum/#!forum/latex-br

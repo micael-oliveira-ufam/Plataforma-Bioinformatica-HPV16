@@ -1,0 +1,235 @@
+%% Customizações do abnTeX2 (http://www.abntex.net.br) para o Instituto de Matemática,
+%% Estatística e Computação Científica da Universidade Estadual de Campinas (IMECC-UNICAMP)
+%%
+%% This work may be distributed and/or modified under the conditions of the LaTeX Project
+%% Public License, either version 1.3 of this license or (at your option) any later version.
+%% The latest version of this license is in http://www.latex-project.org/lppl.txt and version
+%% 1.3 or later is part of all distributions of LaTeX version 2005/12/01 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is Fábio Rodrigues Silva, gfabinhomat@gmail.com
+%%
+%% Further information about abnTeX2 are available on http://www.abntex.net.br
+%%
+\documentclass[
+	oldfontcommands,
+	% -- opções de customização --
+	%sumario=tradicional,
+	sumario=abnt-6027-2012,
+	% -- opções da classe memoir --
+	12pt,			% tamanho da fonte
+	openright,		% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,		% para impressão em verso e anverso. Oposto a 'oneside'
+	a4paper,		% tamanho do papel. 
+	% -- opções da classe abntex2 --
+	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,	% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,		% idioma adicional para hifenização
+	brazil			% o último idioma é o principal do documento
+	]{imecc-unicamp}
+% ----------------------------------------------------------
+% PACOTES ESSENCIAIS
+\input{pacotes}
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% INFORMAÇÕES E DADOS PARA CAPA E FOLHA DE ROSTO
+\input{dados}
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% CONFIGURAÇÕES GERAIS
+\input{configglobal}
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% COMPILA O ÍNDICE (OPCIONAL)
+\makeindex
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% CONTÉM TODAS AS ENTRADAS DO GLOSSÁRIO (OPCIONAL)
+\input{glossario}
+% ----------------------------------------------------------
+% -----------------------------------------------------------------------------------------------
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INÍCIO DO DOCUMENTO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% -----------------------------------------------------------------------------------------------
+\begin{document}
+% Seleciona o idioma do documento (conforme pacotes do babel)
+\selectlanguage{brazil}
+% \selectlanguage{english}
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing
+% ---------------------------------------------------------------------------------
+% %%%%%%%%%%%%%%%%%%%%%%% INÍCIO DOS ELEMENTOS PRÉ-TEXTUAIS %%%%%%%%%%%%%%%%%%%%%%%
+% ---------------------------------------------------------------------------------
+\pretextual
+% ----------------------------------------------------------
+% PRIMEIRA FOLHA (OBRIGATÓRIO)
+\imprimirprimeirafolha
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% FOLHA DE ROSTO (OBRIGATÓRIO)
+% ---
+% Após realizar as correções finais de seu trabalho acadêmico, escaneie a folha de rosto
+% devidamente assinada pelo orientador e salve no formato PDF com o nome 'folha-de-rosto.pdf'
+% no diretório do seu projeto. Daí substitua a linha do comando '\imprimirfolhaderosto'
+% pelas 3 linhas de comando abaixo:
+% ---
+% \begin{folhaderosto}
+%     \includepdf{folha-de-rosto.pdf}
+% \end{folhaderosto}
+% ---
+\imprimirfolhaderosto
+
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% FICHA CATALOGRÁFICA (OBRIGATÓRIO)
+% ---
+% A biblioteca da UNICAMP lhe fornecerá um PDF com a ficha catalográfica definitiva após a defesa
+% do trabalho {http://hamal.bc.unicamp.br/catalogonline2/}. Quando estiver com o documento, salve-o
+% como PDF no diretório do seu projeto e deixe apenas o comando '\includepdf{ficha-catalografica.pdf}'
+% dentro do ambiente abaixo
+% ---
+\begin{fichacatalografica}
+    \begin{center}
+	{\ABNTEXchapterfont\large A ficha catalográfica será fornecida pela biblioteca}
+    \end{center}
+%     \includepdf{ficha-catalografica.pdf}
+\end{fichacatalografica}
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% FOLHA DE APROVAÇÃO (OBRIGATÓRIO)
+% ---
+% A folha de aprovação será fornecida pela secretaria de pós-graduação. Após recebê-la, escaneie a folha
+% salvando em PDF no diretório do seu projeto com o nome 'folhadeaprovacao.pdf' e deixe apenas o comando
+% '\includepdf{folhadeaprovacao.pdf}' dentro do ambiente abaixo
+% ---
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% DEDICATÓRIA (OPCIONAL)
+\begin{dedicatoria}
+   \vspace*{\fill}
+   \centering
+   \noindent
+   \textit{
+      Este trabalho é dedicado às crianças adultas que,\\
+      quando pequenas, sonharam em se tornar cientistas.
+   }
+   \vspace*{\fill}
+\end{dedicatoria}
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% AGRADECIMENTOS (OPCIONAL)
+\begin{agradecimentos}
+Sou grato a Deus por ser minha maior força todos os dias, e ser a razão do meu existir. 
+
+\end{agradecimentos}
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% EPÍGRAFE (OPCIONAL)
+\begin{epigrafe}
+    \vspace*{\fill}
+    \begin{flushright}
+	\textit{``Seja a luz no mundo''
+	}
+    \end{flushright}
+\end{epigrafe}
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% RESUMOS (OBRIGATÓRIO)
+\include{resumos}
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% LISTA DE ILUSTRAÇÕES (OPCIONAL)
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% LISTA DE TABELAS (OPCIONAL)
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\cleardoublepage
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% LISTA DE ABREVIATURAS E SIGLAS (OPCIONAL)
+\begin{siglas}
+  \item[MD] Dinâmica molecular, do inglês "Molecular Dynamics"
+  \item[MM-GBSA] Mecânica molecular por Born-generalizado e solvatação apolar, do inglês "Molecular Mechanics - Generalized Born Solvation Apolar"
+\end{siglas}
+
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% SUMÁRIO (OBRIGATÓRIO)
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+% ----------------------------------------------------------
+% ---------------------------------------------------------------------------------
+% %%%%%%%%%%%%%%%%%%%%%%%% FIM DOS ELEMENTOS PRÉ-TEXTUAIS %%%%%%%%%%%%%%%%%%%%%%%%
+% ---------------------------------------------------------------------------------
+% ---------------------------------------------------------------------------------
+% %%%%%%%%%%%%%%%%%%%%%%%%% INÍCIO DOS ELEMENTOS TEXTUAIS %%%%%%%%%%%%%%%%%%%%%%%%%
+% ---------------------------------------------------------------------------------
+\textual
+% ----------------------------------------------------------
+% INTRODUÇÃO
+\include{introducao}
+% ----------------------------------------------------------
+% DESENVOLVIMENTO
+% \part{Preparação da pesquisa}
+% \include{capitulo1}
+% \include{capitulo2}
+% \part{Referenciais teóricos}
+% \include{capitulo3}
+% \include{capitulo4}
+% \include{capitulo5}
+% \part{Resultados}
+% \include{capitulo6}
+% \include{capitulo7}
+% --------------------
+% INÍCIO DOS EXEMPLOS
+% --------------------
+% No âmbito do Modelo Canônico, os comandos a seguir apresentam um sucinto resumo de como
+% esta classe pode ser usada. Oriente a construção do seu trabalho com base nestes comandos.
+% ---
+\include{abntex2-modelo-exemplos}
+% ---
+% --------------------
+% FIM DOS EXEMPLOS
+% --------------------
+% ----------------------------------------------------------
+% CONSIDERAÇÕES FINAIS
+% Finaliza a parte no bookmark do PDF para que se inicie o
+% bookmark na raiz e adiciona espaço de parte no Sumário
+\phantompart
+\include{considfinais}
+% ----------------------------------------------------------
+% ---------------------------------------------------------------------------------
+% %%%%%%%%%%%%%%%%%%%%%%%%%% FIM DOS ELEMENTOS TEXTUAIS %%%%%%%%%%%%%%%%%%%%%%%%%%
+% ---------------------------------------------------------------------------------
+% ---------------------------------------------------------------------------------
+% %%%%%%%%%%%%%%%%%%%%%%% INÍCIO DOS ELEMENTOS PÓS-TEXTUAIS %%%%%%%%%%%%%%%%%%%%%%%
+% ---------------------------------------------------------------------------------
+% ----------------------------------------------------------
+\postextual
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% REFERÊNCIAS
+\bibliography{Referencias}
+
+% ----------------------------------------------------------
+%-----------------------------------------------------------
+% INDICE REMISSIVO
+%-----------------------------------------------------------
+\phantompart
+\printindex
+%-----------------------------------------------------------
+% ---------------------------------------------------------------------------------
+% %%%%%%%%%%%%%%%%%%%%%%%%%% FIM DOS ELEMENTOS TEXTUAIS %%%%%%%%%%%%%%%%%%%%%%%%%%
+% ----------------------------------------------------------------------------------
+% -----------------------------------------------------------------------------------------------
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FIM DO DOCUMENTO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% -----------------------------------------------------------------------------------------------
+\end{document}

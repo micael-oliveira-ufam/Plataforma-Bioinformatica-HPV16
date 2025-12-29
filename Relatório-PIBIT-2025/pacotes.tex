@@ -1,0 +1,61 @@
+% Aqui você pode adicionar seus pacotes específicos para uso em seu trabalho.
+% Em PACOTES PESSOAIS insira os pacotes que desejar.
+% ----------------------------------------------------------
+% PACOTES BÁSICOS (ESSENCIAIS AO MODELO)
+\usepackage{lmodern}			% Usa a fonte Latin Modern
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{lastpage}			% Usado pela Ficha catalográfica
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color,xcolor}		% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+
+\usepackage{float}
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% PACOTES PARA GLOSSÁRIO
+\usepackage[subentrycounter,seeautonumberlist,nonumberlist=true]{glossaries}
+% para usar o xindy ao invés do makeindex:
+%\usepackage[xindy={language=portuguese},subentrycounter,seeautonumberlist,nonumberlist=true]{glossaries}
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% PACOTES DE CITAÇÕES (PRINCIPAIS PACOTES DO MODELO)
+\usepackage[brazilian]{backref}		% Paginas com as citações na bibl
+\usepackage[alf,
+	    abnt-repeated-author-omit=yes,
+	    abnt-etal-list=0]{abntex2cite}		% Citações padrão ABNT
+% É possível utilizar o sistema numérico de chamada, alterando a opção 'alf' para 'num'.
+% Outros estilos bibliográficos podem ser usados. Se este for o caso, comente o pacote acima
+% e utilize, por exemplo, o comando abaixo
+% \bibliographystyle{acm}
+% Consulte outros estilos de bibliografia consultando o manual de estilos bibliográficos do
+% BibTeX em 'http://www.bibtex.org/'
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% PACOTES ADICIONAIS (usados apenas no âmbito do Modelo Canônico do abnteX2)
+\usepackage{lipsum}			% para geração de dummy text
+% ----------------------------------------------------------
+% ----------------------------------------------------------
+% PACOTES PESSOAIS (USADOS PELO AUTOR -- acrescente aqui seus pacotes)
+% ----------------------------------------------------------
+\usepackage[portuguese,onelanguage]{algorithm2e}	% para inserir algoritmos (longend,vlined)
+% \usepackage{amsbsy}			% para símbolos matemáticos em negrito
+% \usepackage{amscd}			% para diagramas
+% \usepackage{amsfonts}			% fontes AMS
+% \usepackage{amsmath}			% facilidades matemáticas
+% \usepackage{amssymb}			% para os símbolos mais antigos
+% \usepackage{amstext}			% para fragmentos tipo texto em modo matemático
+\usepackage{amsthm}			% para teoremas
+\usepackage{hyperref}			% Amplo suporte para hipertexto em LaTeX
+\usepackage{cleveref}			% Referência cruzada inteligente
+\usepackage{dsfont}			% para o estilo de conjuntos de números $\mathds{R}$
+% \usepackage{ifthen}			% comandos de condição em LaTeX
+\usepackage{listings}           	% para inserir códigos de outras linguagens de programação
+% \usepackage{lscape}             	% para imprimir alguma página no formato paisagem
+\usepackage{mathabx}			% conjunto de simbolos matemáticos
+% \usepackage{mathrsfs}			% suporte para fontes RSFS
+% \usepackage{pdfpages}           	% para inserir páginas PDF no texto
+
+% \usepackage{verbatim}
+% ----------------------------------------------------------

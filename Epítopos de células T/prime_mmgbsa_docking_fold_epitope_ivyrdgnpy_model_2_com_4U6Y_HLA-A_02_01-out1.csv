@@ -1,0 +1,13 @@
+"Title","MMGBSA dG Bind","MMGBSA dG Bind Coulomb","MMGBSA dG Bind Covalent","MMGBSA dG Bind Hbond","MMGBSA dG Bind Lipo","MMGBSA dG Bind Packing","MMGBSA dG Bind SelfCont","MMGBSA dG Bind Solv GB","MMGBSA dG Bind vdW"
+"4U6Y_prep_maestro_HLA-A_02_01",,,,,,,,,
+"fold_epitope_ivyrdgnpy_model_2",,,,,,,,,
+"fold_epitope_ivyrdgnpy_model_2 - preprocessed",,,,,,,,,
+"fold_epitope_ivyrdgnpy_model_2 - hbond-opt",,,,,,,,,
+"fold_epitope_ivyrdgnpy_model_2 - minimized",,,,,,,,,
+"prot-prot-docking_fold_epitope_ivyrdgnpy_model_2_com_4U6Y_HLA-A_02_01_pose_1",,,,,,,,,
+"prot-prot-docking_fold_epitope_ivyrdgnpy_model_2_com_4U6Y_HLA-A_02_01_pose_2",,,,,,,,,
+"conf1",,,,,,,,,
+"conf2",,,,,,,,,
+"4U6Y_prep_maestro_HLA-A_0201",,,,,,,,,
+"conf1",-19.43,-14.93,16.41,-2.55,-8.86,-0.46,0.19,21.43,-30.64
+"conf2",391.58,62.38,113.46,-1.24,-21.44,-1.03,-4.25,-2.50,246.20

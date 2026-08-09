@@ -1,0 +1,49 @@
+"Title","MMGBSA dG Bind","MMGBSA dG Bind Coulomb","MMGBSA dG Bind Covalent","MMGBSA dG Bind Hbond","MMGBSA dG Bind Lipo","MMGBSA dG Bind Packing","MMGBSA dG Bind SelfCont","MMGBSA dG Bind Solv GB","MMGBSA dG Bind vdW"
+"fold_epitope_qqllrrevy_model_0",,,,,,,,,
+"fold_epitope_qqllrrevy_model_0 - preprocessed",,,,,,,,,
+"fold_epitope_qqllrrevy_model_0 - hbond-opt",,,,,,,,,
+"fold_epitope_qqllrrevy_model_0 - minimized",,,,,,,,,
+"4U6Y_prep_maestro_HLA-A_02_01",,,,,,,,,
+"prot-prot-docking_fold_epitope_qqllrrevy_model_0_com_4U6Y_HLA-A_02_01_pose_1",,,,,,,,,
+"prot-prot-docking_fold_epitope_qqllrrevy_model_0_com_4U6Y_HLA-A_02_01_pose_2",,,,,,,,,
+"prot-prot-docking_fold_epitope_qqllrrevy_model_0_com_4U6Y_HLA-A_02_01_pose_3",,,,,,,,,
+"prot-prot-docking_fold_epitope_qqllrrevy_model_0_com_4U6Y_HLA-A_02_01_pose_4",,,,,,,,,
+"prot-prot-docking_fold_epitope_qqllrrevy_model_0_com_4U6Y_HLA-A_02_01_pose_5",,,,,,,,,
+"prot-prot-docking_fold_epitope_qqllrrevy_model_0_com_4U6Y_HLA-A_02_01_pose_6",,,,,,,,,
+"prot-prot-docking_fold_epitope_qqllrrevy_model_0_com_4U6Y_HLA-A_02_01_pose_7",,,,,,,,,
+"prot-prot-docking_fold_epitope_qqllrrevy_model_0_com_4U6Y_HLA-A_02_01_pose_8",,,,,,,,,
+"prot-prot-docking_fold_epitope_qqllrrevy_model_0_com_4U6Y_HLA-A_02_01_pose_9",,,,,,,,,
+"prot-prot-docking_fold_epitope_qqllrrevy_model_0_com_4U6Y_HLA-A_02_01_pose_10",,,,,,,,,
+"prot-prot-docking_fold_epitope_qqllrrevy_model_0_com_4U6Y_HLA-A_02_01_pose_11",,,,,,,,,
+"prot-prot-docking_fold_epitope_qqllrrevy_model_0_com_4U6Y_HLA-A_02_01_pose_12",,,,,,,,,
+"prot-prot-docking_fold_epitope_qqllrrevy_model_0_com_4U6Y_HLA-A_02_01_pose_13",,,,,,,,,
+"prot-prot-docking_fold_epitope_qqllrrevy_model_0_com_4U6Y_HLA-A_02_01_pose_14",,,,,,,,,
+"conf1",,,,,,,,,
+"conf2",,,,,,,,,
+"conf3",,,,,,,,,
+"conf4",,,,,,,,,
+"conf5",,,,,,,,,
+"conf6",,,,,,,,,
+"conf7",,,,,,,,,
+"conf8",,,,,,,,,
+"conf9",,,,,,,,,
+"conf10",,,,,,,,,
+"conf11",,,,,,,,,
+"conf12",,,,,,,,,
+"conf13",,,,,,,,,
+"conf14",,,,,,,,,
+"conf10",-52.94,13.10,-2.36,0.38,-14.84,-0.69,-0.00,15.60,-64.14
+"conf5",-46.90,18.03,13.89,-3.75,-15.00,-2.17,-0.00,6.29,-64.18
+"conf12",-42.94,26.56,4.40,-1.02,-14.29,-2.18,-0.00,2.51,-58.91
+"conf14",-38.20,-3.74,2.46,-2.92,-9.81,-0.38,-0.00,22.36,-46.17
+"conf9",-32.40,55.87,13.44,-0.32,-17.70,-0.79,-0.00,-10.38,-72.51
+"conf13",-31.04,27.88,7.04,-1.68,-13.09,-2.32,-0.00,2.47,-51.34
+"conf11",-29.10,25.73,2.73,-0.48,-13.95,-2.36,-0.00,12.43,-53.21
+"conf7",-26.48,29.46,9.67,-0.75,-13.67,-2.03,-0.00,10.61,-59.78
+"conf8",-23.76,14.82,13.03,-2.75,-10.02,-1.26,-0.00,20.56,-58.15
+"conf1",-11.27,25.79,4.94,-3.68,-15.08,-2.65,-0.00,32.08,-52.69
+"conf4",29.71,36.02,13.34,-1.03,-20.81,-2.45,-0.00,16.57,-11.92
+"conf3",109.51,45.34,99.44,-0.35,-24.25,-1.72,-0.00,10.60,-19.55
+"conf2",438.34,35.75,181.79,-1.67,-38.15,-2.96,-0.00,9.92,253.67
+"conf6",1652.67,58.02,665.01,-3.45,-29.34,-3.33,-0.00,8.55,957.21
+"4U6Y_prep_maestro_HLA-A_0201",,,,,,,,,

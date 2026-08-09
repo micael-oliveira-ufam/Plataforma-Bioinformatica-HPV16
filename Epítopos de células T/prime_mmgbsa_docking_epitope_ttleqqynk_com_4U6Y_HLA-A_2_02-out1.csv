@@ -1,0 +1,18 @@
+"Title","MMGBSA dG Bind","MMGBSA dG Bind Coulomb","MMGBSA dG Bind Covalent","MMGBSA dG Bind Hbond","MMGBSA dG Bind Lipo","MMGBSA dG Bind Packing","MMGBSA dG Bind SelfCont","MMGBSA dG Bind Solv GB","MMGBSA dG Bind vdW"
+"4U6Y",,,,,,,,,
+"4U6Y - preprocessed",,,,,,,,,
+"4U6Y - hbond-opt",,,,,,,,,
+"4U6Y - removed waters",,,,,,,,,
+"4U6Y - minimized",,,,,,,,,
+"4U6Y_prep_maestro_HLA-A_0201",,,,,,,,,
+"fold_epitope_ttleqqynk_model_0",,,,,,,,,
+"fold_epitope_ttleqqynk_model_0 - preprocessed",,,,,,,,,
+"fold_epitope_ttleqqynk_model_0 - hbond-opt",,,,,,,,,
+"fold_epitope_ttleqqynk_model_0 - minimized",,,,,,,,,
+"prot-prot-docking_fold_epitope_ttleqqynk_model_0_com_4U6Y_HLA-A_2_02_pose_1",,,,,,,,,
+"prot-prot-docking_fold_epitope_ttleqqynk_model_0_com_4U6Y_HLA-A_2_02_pose_2",,,,,,,,,
+"conf1",,,,,,,,,
+"conf2",,,,,,,,,
+"4U6Y_prep_maestro_HLA-A_0201",,,,,,,,,
+"conf1",-44.56,29.59,1.01,-3.15,-15.96,-2.14,-4.49,-5.48,-43.94
+"conf2",-12.78,20.66,34.97,-5.11,-18.31,-1.16,-4.60,-1.91,-37.32

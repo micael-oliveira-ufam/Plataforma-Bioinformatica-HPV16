@@ -324,7 +324,7 @@ Os conjuntos de dados podem incluir:
 
 ### Zenodo
 
-**DOI/URL:** `ADICIONAR_DOI_OU_LINK_DO_ZENODO`
+**DOI/URL:** `[Link](https://zenodo.org/records/21859220)`
 
 ---
 

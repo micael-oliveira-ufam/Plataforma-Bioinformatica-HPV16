@@ -1,0 +1,38 @@
+"Set1
+Residues","Set2
+Residues",Distance(A),Specific Interactions,#HB,#Salt Bridges,#Pi Stacking,#Disulfides,#vdW Clash
+A:Arg 148,B:Ser 90,3.1,,0,0,0,0,0
+A:Arg 148,B:Asp 91,3.4,,0,0,0,0,0
+A:Glu 120,B:Lys 46,2.2,,0,0,0,0,0
+A:Glu 120,B:Leu 44,2.0,1x hb to B:Leu 44,1,0,0,0,0
+A:Glu 120,B:Gln 43,3.5,,0,0,0,0,0
+A:Glu 120,B:Ala 45,2.2,,0,0,0,0,0
+A:Pro 119,B:Gln 43,2.3,,0,0,0,0,0
+A:Pro 119,B:Ala 183,2.3,,0,0,0,0,0
+A:Pro 119,B:Cys 182,3.7,,0,0,0,0,0
+A:Cys 118,B:Leu 44,3.8,,0,0,0,0,0
+A:Lys 115,B:His 85,2.9,,0,0,0,0,0
+A:Asp 105,B:Cys 184,3.4,,0,0,0,0,0
+A:Asp 105,B:Arg 187,2.4,1x hb to B:Arg 187,1,0,0,0,0
+A:Cys 104,B:Cys 184,2.0,1x s-s to B:Cys 184,0,0,0,1,0
+A:Cys 104,B:Ala 183,2.7,,0,0,0,0,0
+A:Pro 102,B:Lys 27,2.0,,0,0,0,0,0
+A:Lys 101,B:Lys 27,3.8,,0,0,0,0,0
+A:Phe 54,B:His 85,3.1,,0,0,0,0,0
+A:Phe 54,B:His 86,2.3,1x pi stack to B:His 86,0,0,1,0,0
+A:Phe 54,B:Cys 149,2.7,,0,0,0,0,0
+A:Phe 54,B:Asn 146,3.9,,0,0,0,0,0
+A:Ala 53,B:Met 150,2.2,,0,0,0,0,0
+A:Asp 51,B:His 85,2.0,1x hb to B:His 85,1,0,0,0,0
+A:Tyr 50,B:His 85,2.5,,0,0,0,0,0
+A:Tyr 50,B:Pro 84,2.6,,0,0,0,0,0
+A:Tyr 50,B:Arg 88,2.9,,0,0,0,0,0
+A:Arg 47,B:Arg 88,2.1,,0,0,0,0,0
+A:Arg 46,B:Arg 88,2.3,,0,0,0,0,0
+A:His 31,B:Pro 84,2.4,,0,0,0,0,0
+A:His 31,B:Gly 151,3.0,,0,0,0,0,0
+A:Ile 30,B:Gly 151,3.2,,0,0,0,0,0
+A:Ile 30,B:Met 150,2.3,,0,0,0,0,0
+A:Pro 20,B:Met 150,2.2,,0,0,0,0,0
+A:Pro 20,B:Asn 154,3.7,,0,0,0,0,0
+A:Val 19,B:Met 150,2.5,,0,0,0,0,0

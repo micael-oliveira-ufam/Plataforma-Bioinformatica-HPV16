@@ -1,0 +1,8 @@
+receptor = Receptores/fold_8exl_pik3ca_mutant_e542k_e545k_model_0_prep_maestro.pdbqt
+center_x = -1.890
+center_y = 4.993
+center_z = -0.080
+size_x   = 129.368
+size_y   = 137.904
+size_z   = 126.548
+exhaustiveness = 24

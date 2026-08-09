@@ -1,0 +1,8 @@
+receptor = Receptores/fold_8exl_pik3ca_wild_type_model_0_prep_maestro.pdbqt
+center_x = 0.989
+center_y = -5.668
+center_z = -3.994
+size_x   = 152.948
+size_y   = 193.232
+size_z   = 157.564
+exhaustiveness = 24

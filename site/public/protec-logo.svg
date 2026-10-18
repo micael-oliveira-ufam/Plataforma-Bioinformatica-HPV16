@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 370" fill="none">
+  <!-- Rounded Square Icon Container -->
+  <g transform="translate(45, 10)">
+    <!-- Background clipping & rounded square shadow/border if needed -->
+    <rect x="0" y="0" width="230" height="230" rx="55" fill="#FFFFFF" />
+    <g>
+      <!-- Clip path for the 8 color quadrants inside the rounded box -->
+      <mask id="iconMask">
+        <rect x="0" y="0" width="230" height="230" rx="55" fill="#FFFFFF" />
+      </mask>
+      <g mask="url(#iconMask)">
+        <!-- Top-Left Segment 1 -->
+        <path d="M 115,115 L 0,0 L 0,115 Z" fill="#1271B6" />
+        <!-- Top-Left-Mid Segment 2 -->
+        <path d="M 115,115 L 0,0 L 115,0 Z" fill="#008DD4" />
+        <!-- Top-Right-Mid Segment 3 -->
+        <path d="M 115,115 L 115,0 L 230,0 Z" fill="#009BE1" />
+        <!-- Top-Right Segment 4 -->
+        <path d="M 115,115 L 230,0 L 230,115 Z" fill="#0092D0" />
+        <!-- Bottom-Right Segment 5 -->
+        <path d="M 115,115 L 230,115 L 230,230 Z" fill="#006738" />
+        <!-- Bottom-Right-Mid Segment 6 -->
+        <path d="M 115,115 L 230,230 L 115,230 Z" fill="#00AC46" />
+        <!-- Bottom-Left-Mid Segment 7 -->
+        <path d="M 115,115 L 115,230 L 0,230 Z" fill="#D49A37" />
+        <!-- Bottom-Left Segment 8 -->
+        <path d="M 115,115 L 0,230 L 0,115 Z" fill="#885E33" />
+
+        <!-- White Dividing Radial Lines -->
+        <line x1="115" y1="115" x2="0" y2="0" stroke="#FFFFFF" stroke-width="7" />
+        <line x1="115" y1="115" x2="230" y2="0" stroke="#FFFFFF" stroke-width="7" />
+        <line x1="115" y1="115" x2="230" y2="230" stroke="#FFFFFF" stroke-width="7" />
+        <line x1="115" y1="115" x2="0" y2="230" stroke="#FFFFFF" stroke-width="7" />
+        <line x1="115" y1="0" x2="115" y2="230" stroke="#FFFFFF" stroke-width="7" />
+        <line x1="0" y1="115" x2="230" y2="115" stroke="#FFFFFF" stroke-width="7" />
+
+        <!-- Center Lightbulb Silhouette (White) -->
+        <g transform="translate(115, 115)">
+          <path d="M 0,-42 C -24,-42 -38,-26 -38,-4 C -38,12 -22,22 -18,34 L 18,34 C 22,22 38,12 38,-4 C 38,-26 24,-42 0,-42 Z" fill="#FFFFFF" />
+          <rect x="-14" y="38" width="28" height="10" rx="3" fill="#FFFFFF" />
+          <path d="M -8,52 L 8,52 L 5,59 C 3,62 -3,62 -5,59 Z" fill="#FFFFFF" />
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- PROTEC Text Below Icon -->
+  <text x="160" y="295" fill="#002B66" font-family="'Arial Black', Arial, sans-serif" font-size="56" font-weight="900" text-anchor="middle" letter-spacing="3">PROTEC</text>
+  
+  <!-- Subtitle Text -->
+  <text x="160" y="330" fill="#002B66" font-family="Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="0.2">Pró-Reitoria de Inovação Tecnológica</text>
+</svg>

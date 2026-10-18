@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1060" fill="none">
+  <!-- Outer Circular Seal Boundary -->
+  <circle cx="400" cy="400" r="380" stroke="#000000" stroke-width="16" fill="#FFFFFF" />
+  
+  <!-- Outer Text Arc Paths -->
+  <path id="ufamTopArc" d="M 52,400 A 348,348 0 1,1 748,400" fill="none" />
+  <path id="ufamBottomArc" d="M 80,400 A 320,320 0 0,0 720,400" fill="none" />
+
+  <!-- Arc Text: UNIVERSIDADE FEDERAL DO AMAZONAS -->
+  <text fill="#000000" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="900" letter-spacing="4.5">
+    <textPath href="#ufamTopArc" start-offset="50%" text-anchor="middle">
+      UNIVERSIDADE FEDERAL DO AMAZONAS
+    </textPath>
+  </text>
+
+  <!-- Arc Text: IN UNIVERSA SCIENTIA VERITAS -->
+  <text fill="#000000" font-family="Arial, Helvetica, sans-serif" font-size="37" font-weight="900" letter-spacing="3.5">
+    <textPath href="#ufamBottomArc" start-offset="50%" text-anchor="middle">
+      IN UNIVERSA SCIENTIA VERITAS
+    </textPath>
+  </text>
+
+  <!-- Separator Dots -->
+  <circle cx="70" cy="400" r="15" fill="#000000" />
+  <circle cx="730" cy="400" r="15" fill="#000000" />
+
+  <!-- Inner Thin Ring -->
+  <circle cx="400" cy="400" r="310" stroke="#000000" stroke-width="5" fill="none" />
+
+  <!-- Laurel Wreath & Center Scene -->
+  <g>
+    <!-- Left Laurel Branch (Green) -->
+    <path d="M 130,340 C 120,240 180,150 280,120 C 230,160 180,220 170,320 C 160,390 190,460 230,510 C 270,560 330,600 400,620 C 320,600 240,550 190,480 C 150,420 135,380 130,340 Z" fill="#009246" stroke="#000000" stroke-width="3" />
+    <!-- Right Laurel Branch (Green) -->
+    <path d="M 670,340 C 680,240 620,150 520,120 C 570,160 620,220 630,320 C 640,390 610,460 570,510 C 530,560 470,600 400,620 C 480,600 560,550 610,480 C 650,420 665,380 670,340 Z" fill="#009246" stroke="#000000" stroke-width="3" />
+
+    <!-- Wreath Stems at Bottom (Crossed Stems) -->
+    <path d="M 330,600 Q 400,620 460,650 M 470,600 Q 400,620 340,650" stroke="#000000" stroke-width="14" stroke-linecap="round" />
+
+    <!-- Detailed Laurel Leaves (Left Wreath) -->
+    <path d="M 170,320 Q 210,280 230,310 Q 190,340 170,320 Z" fill="#009246" stroke="#000000" stroke-width="3" />
+    <path d="M 150,260 Q 190,220 220,250 Q 180,280 150,260 Z" fill="#009246" stroke="#000000" stroke-width="3" />
+    <path d="M 180,200 Q 230,170 250,200 Q 210,230 180,200 Z" fill="#009246" stroke="#000000" stroke-width="3" />
+    <path d="M 230,150 Q 280,120 300,150 Q 260,180 230,150 Z" fill="#009246" stroke="#000000" stroke-width="3" />
+    <path d="M 200,380 Q 240,350 260,380 Q 220,410 200,380 Z" fill="#009246" stroke="#000000" stroke-width="3" />
+    <path d="M 230,440 Q 270,420 290,450 Q 250,470 230,440 Z" fill="#009246" stroke="#000000" stroke-width="3" />
+    <path d="M 280,500 Q 320,480 340,510 Q 300,530 280,500 Z" fill="#009246" stroke="#000000" stroke-width="3" />
+
+    <!-- Detailed Laurel Leaves (Right Wreath) -->
+    <path d="M 630,320 Q 590,280 570,310 Q 610,340 630,320 Z" fill="#009246" stroke="#000000" stroke-width="3" />
+    <path d="M 650,260 Q 610,220 580,250 Q 620,280 650,260 Z" fill="#009246" stroke="#000000" stroke-width="3" />
+    <path d="M 620,200 Q 570,170 550,200 Q 590,230 620,200 Z" fill="#009246" stroke="#000000" stroke-width="3" />
+    <path d="M 570,150 Q 520,120 500,150 Q 540,180 570,150 Z" fill="#009246" stroke="#000000" stroke-width="3" />
+    <path d="M 600,380 Q 560,350 540,380 Q 580,410 600,380 Z" fill="#009246" stroke="#000000" stroke-width="3" />
+    <path d="M 570,440 Q 530,420 510,450 Q 550,470 570,440 Z" fill="#009246" stroke="#000000" stroke-width="3" />
+    <path d="M 520,500 Q 480,480 460,510 Q 500,530 520,500 Z" fill="#009246" stroke="#000000" stroke-width="3" />
+
+    <!-- Red Coffee Berries Clusters on Left -->
+    <g fill="#D3131B" stroke="#000000" stroke-width="2.5">
+      <circle cx="170" cy="240" r="14" />
+      <circle cx="190" cy="230" r="14" />
+      <circle cx="205" cy="250" r="14" />
+      <circle cx="180" cy="262" r="14" />
+      <circle cx="140" cy="430" r="14" />
+      <circle cx="160" cy="420" r="14" />
+      <circle cx="175" cy="440" r="14" />
+      <circle cx="150" cy="452" r="14" />
+      <circle cx="180" cy="460" r="14" />
+    </g>
+
+    <!-- Pink Flowers at Top Center -->
+    <g fill="#E45B78" stroke="#000000" stroke-width="2.5">
+      <!-- Flower 1 (Left Pink) -->
+      <g transform="translate(370,140)">
+        <circle cx="-12" cy="0" r="11" />
+        <circle cx="12" cy="0" r="11" />
+        <circle cx="0" cy="-12" r="11" />
+        <circle cx="0" cy="12" r="11" />
+        <circle cx="0" cy="0" r="6" fill="#FFFFFF" />
+        <path d="M -2,-2 L 2,2 M -2,2 L 2,-2" stroke="#000000" stroke-width="2" />
+      </g>
+      <!-- Flower 2 (Top Right Pink) -->
+      <g transform="translate(430,140)">
+        <circle cx="-12" cy="0" r="11" />
+        <circle cx="12" cy="0" r="11" />
+        <circle cx="0" cy="-12" r="11" />
+        <circle cx="0" cy="12" r="11" />
+        <circle cx="0" cy="0" r="6" fill="#FFFFFF" />
+        <path d="M -2,-2 L 2,2 M -2,2 L 2,-2" stroke="#000000" stroke-width="2" />
+      </g>
+      <!-- Flower 3 (Bottom Center Pink) -->
+      <g transform="translate(425,185)">
+        <circle cx="-12" cy="0" r="11" />
+        <circle cx="12" cy="0" r="11" />
+        <circle cx="0" cy="-12" r="11" />
+        <circle cx="0" cy="12" r="11" />
+        <circle cx="0" cy="0" r="6" fill="#FFFFFF" />
+        <path d="M -2,-2 L 2,2 M -2,2 L 2,-2" stroke="#000000" stroke-width="2" />
+      </g>
+    </g>
+
+    <!-- Encontro das Águas (Meeting of Waters Lines) -->
+    <path d="M 265,255 Q 380,280 415,315 T 355,570" stroke="#000000" stroke-width="8" fill="none" stroke-linecap="round" />
+    <path d="M 525,290 Q 450,350 420,440 T 355,570" stroke="#000000" stroke-width="8" fill="none" stroke-linecap="round" />
+
+    <!-- Water Droplet (Upper Right) -->
+    <path d="M 465,290 C 455,310 455,330 465,340 C 475,340 480,330 480,310 Z" fill="#FFFFFF" stroke="#000000" stroke-width="6" />
+
+    <!-- Yellow Star (Lower Right) -->
+    <polygon points="540,350 552,380 585,380 558,400 568,430 540,412 512,430 522,400 495,380 528,380" fill="#FFEB3B" stroke="#000000" stroke-width="6" stroke-linejoin="round" />
+  </g>
+
+  <!-- Big Bold Text Below: UFAM -->
+  <text x="400" y="990" fill="#000000" font-family="'Arial Black', 'Impact', sans-serif" font-size="210" font-weight="950" text-anchor="middle" letter-spacing="4">UFAM</text>
+</svg>

@@ -12,6 +12,8 @@ A visualização integrada dos principais resultados está disponível em:
 
 **[Acessar a Plataforma Web](https://plataforma-pib-s-0053-2025-bioinform-tica-diagn-s-348970347034.us-west1.run.app/)**
 
+Versão estática (GitHub Pages): **[micael-oliveira-ufam.github.io/Plataforma-Bioinformatica-HPV16](https://micael-oliveira-ufam.github.io/Plataforma-Bioinformatica-HPV16/)** — código-fonte em [`site/`](site/).
+
 A plataforma reúne os resultados apresentados no relatório final e foi desenvolvida como interface pública para consulta dos dados e análises do projeto.
 
 ---

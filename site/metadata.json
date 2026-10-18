@@ -1,0 +1,8 @@
+{
+  "name": "Plataforma Bioinformatica HPV-16 UFAM",
+  "description": "Plataforma interativa com resultados da pesquisa PIBITI/UFAM sobre modelagem por IA (AlphaFold), docking, dinâmica molecular e imunoinformática para o diagnóstico de HPV-16 no Amazonas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
